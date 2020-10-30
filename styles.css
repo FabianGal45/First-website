@@ -1,0 +1,56 @@
+.topBar{
+  background-color: #9AC4F8;
+  height: 90px;
+}
+
+#logo{
+  float:left;
+  height: 70px;
+  padding: 10 0;
+}
+
+
+/* Navigation */
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited{
+  color: #f2f2f2;
+}
+
+ul{
+}
+
+li{
+  display: inline-block;
+  padding: 5px;
+  vertical-align: middle;
+  line-height: 75px;
+  float: left;
+}
+
+li:hover{
+
+}
+
+
+h1{
+  font-family: 'Merriweather', serif;
+  color: white;
+  margin: 0;
+  vertical-align: middle;
+  line-height: 75px;
+  text-align: center;
+}
+
+
+.content{
+  background-color: #CB958E;
+  color: white;
+}
+
+p{
+  font-family: 'Rubik', sans-serif;
+}
