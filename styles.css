@@ -1,13 +1,12 @@
-.topBar{
+#topBar{
   background-color: #9AC4F8;
-  height: 90px;
 }
 
 #logo{
-  float:left;
-  height: 70px;
-  padding: 10 0;
+  height: 50px;
 }
+
+
 
 
 /* Navigation */
@@ -25,37 +24,44 @@ ul{
 
 li{
   display: inline-block;
-  padding: 5px;
-  vertical-align: middle;
-  line-height: 75px;
-  float: left;
 }
 
-li:hover{
+li:hover{}
 
-}
-
-
-h1{
+#topBar h1{
   font-family: 'Merriweather', serif;
   color: white;
-  margin: 0;
   vertical-align: middle;
-  line-height: 75px;
-  text-align: center;
 }
 
-.content{
+
+
+
+/* Content */
+
+#content{
   background-color: #CB958E;
   color: white;
-  float: left;
+  height: 600px;
+  margin-top: 30px;
 }
 
-p{
+#content p{
   font-family: 'Rubik', sans-serif;
 }
 
-.sidebar{
+
+
+
+/* Sidebar */
+
+#sidebar{
   background-color: #99EDCC;
-  float: right;
+  margin-top: 30px;
+}
+
+#sidebar p{
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-weight: bold;
 }
