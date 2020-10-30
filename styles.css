@@ -45,12 +45,17 @@ h1{
   text-align: center;
 }
 
-
 .content{
   background-color: #CB958E;
   color: white;
+  float: left;
 }
 
 p{
   font-family: 'Rubik', sans-serif;
+}
+
+.sidebar{
+  background-color: #99EDCC;
+  float: right;
 }
