@@ -2,37 +2,56 @@
   background-color: #9AC4F8;
 }
 
-#logo{
-  height: 50px;
-}
-
-
-
 
 /* Navigation */
 
-a:link {
+#topBar a:link {
   text-decoration: none;
   color: white;
 }
-a:visited{
+#topBar a:visited{
   color: #f2f2f2;
 }
-
-ul{
+#topBar a:hover{
+  color: #99EDCC;
 }
 
-li{
-  display: inline-block;
+#nav{
 }
 
-li:hover{}
+#logo img{
+  display: block;
+  height: 50px;
+  width: 87px;
+  margin: 10px auto;
+}
+
+#topBar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#topBar li{
+  float: left;
+}
+
+#topBar ul li a{
+  display: block;
+  text-align: center;
+  margin: 23px 10px;
+}
 
 #topBar h1{
   font-family: 'Merriweather', serif;
   color: white;
+  max-width: 800px;
+  text-align: center;
 }
 
+/* #topBar .row div{
+  margin: 0 auto;
+} */
 
 
 
