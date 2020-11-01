@@ -16,17 +16,23 @@
   color: #99EDCC;
 }
 
-#nav{
-}
+
 
 #logo img{
   display: block;
-  height: 50px;
-  width: 87px;
-  margin: 10px auto;
+  height: 35px;
+  margin: 15px 10px 0 0;
 }
 
-#topBar ul{
+a.nav-link{
+  padding: 0;
+}
+
+:not(#logo) a{
+  margin: 20px 10px 0 0;
+}
+
+/* #topBar ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -34,26 +40,23 @@
 
 #topBar li{
   float: left;
-}
+} */
 
-#topBar ul li a{
-  display: block;
-  text-align: center;
-  margin: 23px 10px;
-}
+/* #topBar ul li a{
+  margin: 33px 5px 0 0;
+} */
+
+/* #topBar .row div{
+  margin: 0 auto;
+} */
 
 #topBar h1{
   font-family: 'Merriweather', serif;
   color: white;
   max-width: 800px;
   text-align: center;
+  margin-top: 10px;
 }
-
-/* #topBar .row div{
-  margin: 0 auto;
-} */
-
-
 
 /* Content */
 
@@ -67,8 +70,6 @@
 #content p{
   font-family: 'Rubik', sans-serif;
 }
-
-
 
 
 /* Sidebar */
