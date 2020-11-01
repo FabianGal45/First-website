@@ -8,15 +8,15 @@
 #topBar a:link {
   text-decoration: none;
   color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 #topBar a:visited{
   color: #f2f2f2;
 }
 #topBar a:hover{
-  color: #99EDCC;
+  color: #ffffff;
+  text-shadow: 4px 4px 8px #000000;
 }
-
-
 
 #logo img{
   display: block;
@@ -32,66 +32,61 @@ a.nav-link{
   margin: 20px 10px 0 0;
 }
 
-/* #topBar ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-#topBar li{
-  float: left;
-} */
-
-/* #topBar ul li a{
-  margin: 33px 5px 0 0;
-} */
-
-/* #topBar .row div{
-  margin: 0 auto;
-} */
-
 #topBar h1{
   font-family: 'Merriweather', serif;
   color: white;
   max-width: 800px;
   text-align: center;
   margin-top: 10px;
+  text-shadow: 1px 1px 8px #000000;
 }
 
+
 /* Content */
+
+.content-container{
+  background-image: url("../images/holding-greenery.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+}
 
 .content{
   background-color: #CB958E;
   color: white;
   margin-top: 30px;
-  height: 300px;
+  padding: 15px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .content p{
   font-family: 'Rubik', sans-serif;
+  font-size: 17px;
 }
 
 
 /* Sidebar */
 
+.sidebar-container{
+  background-image: url("../images/smoking.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+
 .sidebar{
   background-color: #99EDCC;
   margin-top: 30px;
-  height: 300px;
+  padding: 15px;
+  position: absolute;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .sidebar p{
   font-family: 'Merriweather', serif;
   font-style: italic;
   font-weight: bold;
+  font-size: 16px;
 }
-
-
-/* Rework */
-
-/* .BigBoy{
-  background-color: green;
-}
-.SmallBoy{
-  background-color: red;
-} */
